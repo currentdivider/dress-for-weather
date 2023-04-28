@@ -8,7 +8,7 @@ from output_parser import data_parser
 
 def weather_agent(city: str) -> str:
     tools_llm = OpenAI(temperature=0)
-    llm = ChatOpenAI(temperature=0)
+    llm = ChatOpenAI(temperature=0.8)
     template = """
     Given a {city}, get the current weather for that city, I want you to:
     1. Suggest the best outfit for that weather.
