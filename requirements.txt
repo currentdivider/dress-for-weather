@@ -1,0 +1,3 @@
+openai
+langchain == 0.0.150
+google-search-results
